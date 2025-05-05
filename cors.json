@@ -1,0 +1,15 @@
+[
+  {
+    "origin": ["http://localhost:3000", "https://nysl-app-f54e2.web.app"],
+    "method": ["GET", "POST", "PUT", "DELETE"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": ["Content-Type", "Authorization"]
+  }
+]
+
+
+
+
+
+
+  

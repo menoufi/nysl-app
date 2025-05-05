@@ -1,0 +1,22 @@
+{
+    "game-1": {
+      "message-1": {
+        "author": "abc@example.com",
+        "text": "Great job guarding the goal, Kevin!",
+        "timestamp": 1626713122679
+      },
+      "message-2": {
+        "author": "xyz@example.com",
+        "text": "Proud of the team's hustle today!",
+        "timestamp": 1626713222679
+      }
+    },
+    "game-2": {
+      "message-1": {
+        "author": "parent@example.com",
+        "text": "Such a close game!",
+        "timestamp": 1626713322679
+      }
+    }
+  }
+  

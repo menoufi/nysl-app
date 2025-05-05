@@ -15,7 +15,7 @@ const Schedule = () => {
             <th>Teams</th>
             <th>Location</th>
             <th>Time</th>
-            <th>Details</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -26,8 +26,14 @@ const Schedule = () => {
               <td>{game.location}</td>
               <td>{game.time}</td>
               <td>
-                <Link to={`/game/${id}`} className="btn btn-info btn-sm">
-                  View Details
+                <Link to={`/game/${id}`} className="btn btn-info btn-sm me-2">
+                  Details
+                </Link>
+                <Link to={`/messages/${id}`} className="btn btn-success btn-sm me-2">
+                  Chat
+                </Link>
+                <Link to={`/photos/${id}`} className="btn btn-secondary btn-sm">
+                  Photos
                 </Link>
               </td>
             </tr>
@@ -39,6 +45,9 @@ const Schedule = () => {
 };
 
 export default Schedule;
+
+
+
 
 
 

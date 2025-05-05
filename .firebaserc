@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "nysl-app-f54e2"
-  }
+    "default": "nysl-app-f54e2",
+    "nysl": "nysl-app-f54e2"
+  },
+  "targets": {},
+  "etags": {}
 }

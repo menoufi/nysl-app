@@ -35,13 +35,21 @@ const GameDetail = () => {
         </div>
       )}
 
-      <br />
-      <Link to="/games" className="btn btn-primary mt-3">Back to Schedule</Link>
+      <div className="mt-4">
+        <Link to="/games" className="btn btn-primary">
+          Back to Schedule
+        </Link>
+      </div>
     </div>
   );
 };
 
 export default GameDetail;
+
+
+
+
+
 
 
 
